@@ -44,7 +44,7 @@ export default function Main(){
                 }
             }
             cards.splice(indexRemover, 1)
-            imageFilter = item.children[1].innerHTML
+            imageFilter = filtering
             if(imageFilter === ''){
                 filteredCards = []
                 for (let i=0; i < cards.length; i++){
