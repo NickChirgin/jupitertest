@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/jupitertest/static/css/main.01ea71a9.css",
+    "main.js": "/jupitertest/static/js/main.4ff7c67f.js",
+    "static/js/787.5dd6900b.chunk.js": "/jupitertest/static/js/787.5dd6900b.chunk.js",
+    "static/media/chinchilla.jpg": "/jupitertest/static/media/chinchilla.4e40a99fe4cf00eea5c8.jpg",
+    "static/media/Switzerland.jpg": "/jupitertest/static/media/Switzerland.32db22816f2229e4a1c2.jpg",
+    "static/media/britishshorthair.jpg": "/jupitertest/static/media/britishshorthair.6c838fa1b79b2dc5082a.jpg",
+    "static/media/Germany.jpg": "/jupitertest/static/media/Germany.5eb37ad0a59a5616a3bb.jpg",
+    "static/media/brownie.jpg": "/jupitertest/static/media/brownie.d00685942fb6c218221e.jpg",
+    "static/media/Belgium.jpg": "/jupitertest/static/media/Belgium.e46f126cb929a0d74adb.jpg",
+    "static/media/Austria.jpg": "/jupitertest/static/media/Austria.db78adb4365c7beb88fd.jpg",
+    "static/media/mango.jpg": "/jupitertest/static/media/mango.de7e4e0c3f2a9104ec47.jpg",
+    "static/media/Canada.jpg": "/jupitertest/static/media/Canada.2115a329f36ab2126e26.jpg",
+    "static/media/mahjong.jpg": "/jupitertest/static/media/mahjong.dfa2c9ffc6f684493cc8.jpg",
+    "static/media/berrybowl.jpg": "/jupitertest/static/media/berrybowl.4a34269eedf59d78f012.jpg",
+    "static/media/soccer.jpg": "/jupitertest/static/media/soccer.c50991995bb1fdf07490.jpg",
+    "static/media/egyptianmau.jpg": "/jupitertest/static/media/egyptianmau.b045e4a03341f1c656aa.jpg",
+    "static/media/biliard.jpg": "/jupitertest/static/media/biliard.390c671eb852398c02c1.jpg",
+    "static/media/hzchtoeto.jpg": "/jupitertest/static/media/hzchtoeto.18d738f5d4363856811a.jpg",
+    "static/media/mainecoon.jpg": "/jupitertest/static/media/mainecoon.a7d6a1926a56dbe91006.jpg",
+    "static/media/chess.jpg": "/jupitertest/static/media/chess.58d1b303c9655a6ef09e.jpg",
+    "static/media/candy.jpg": "/jupitertest/static/media/candy.0da371878c0b95e86be0.jpg",
+    "index.html": "/jupitertest/index.html",
+    "static/media/astersik.svg": "/jupitertest/static/media/astersik.ed1085365e6e9366583f4c3deb41e459.svg",
+    "static/media/inner-asterisk.svg": "/jupitertest/static/media/inner-asterisk.08d7cfcde46b0fcd593f3822df5529b0.svg",
+    "main.01ea71a9.css.map": "/jupitertest/static/css/main.01ea71a9.css.map",
+    "main.4ff7c67f.js.map": "/jupitertest/static/js/main.4ff7c67f.js.map",
+    "787.5dd6900b.chunk.js.map": "/jupitertest/static/js/787.5dd6900b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ea71a9.css",
+    "static/js/main.4ff7c67f.js"
+  ]
+}
