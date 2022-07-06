@@ -7,34 +7,25 @@ import array from "../Array";
 export default function Main(){
     let cards = array
     let initialState =[]
-    var filteredCards = []
-    var filteredArray = []
+    let filteredCards = []
+    let filteredArray = []
     let imageFilter = ''
     const [load, setLoad] = useState(initialState)
     const [filtering, setFiltering] = useState('')
     const [counter, setCounter] = useState(9)
-    var count = 9
+    let count = 9
     let indexRemover = 0
   
     
-    useEffect(() =>{
-        setLoad(load)
-    }, [load])
-    useEffect(() =>{
-        setFiltering(filtering)
-    }, [filtering])
-    useEffect(() =>{
-        setCounter(counter)
-    }, [])
-    
-    
-
     useEffect(() => {
         window.addEventListener("keydown", deleteItem);
+        return () =>{
+            window.removeEventListener("keydown", deleteItem)
+        }
       }, []);
 
     const deleteItem = (e) =>{
-        if (e.keyCode === 46){
+        if (e.key === "Delete"){
             
             let item = document.querySelector('.highlight')
             console.log(item.lastChild.innerHTML)
@@ -56,7 +47,6 @@ export default function Main(){
             }
             
             filteredArray = []
-            console.log(count)
            for (let i=0; i<counter; i++){
             filteredArray.push(filteredCards[i])
            }
@@ -84,7 +74,6 @@ export default function Main(){
         filteredArray.push(filteredCards[i])
        }
        setLoad(filteredArray)
-       console.log(filtering)
        return (count,imageFilter)
     }
 
@@ -110,12 +99,9 @@ export default function Main(){
             filteredCards =  imageFiltering(filtering)
         }
         
-        
-        console.log(count)
         for (let i=0; i<count; i++){
             filteredArray.push(filteredCards[i])
         }
-        console.log(counter)
         setLoad(filteredArray)
         return count
     }
