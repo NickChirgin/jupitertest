@@ -1,5 +1,5 @@
 
-const array =  [
+const data =  [
     {
         id: 1,
         url: require('../images/Belgium.jpg'),
@@ -314,4 +314,4 @@ const array =  [
     },
     
 ];
-export default array
+export default data

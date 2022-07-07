@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Category from "./Category";
 import Card from "./Card";
-import array from "../Array";
+import data from "../Data";
 
 
 export default function Main(){
-    let cards = array
+    let cards = data
     let initialState =[]
     let filteredCards = []
     let filteredArray = []
